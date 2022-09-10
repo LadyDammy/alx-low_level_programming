@@ -3,7 +3,7 @@
  * main - print lowercase alphabets excluding e and q
  *
  * Description: using the main function
- * this program prints " Lowerscase alphabets that are not e and q
+ * this program prints " Lowerscase alphabets excluding e and q
  * Return: 0
  */
 int main(void)
@@ -15,7 +15,7 @@ if (ch != 'e' && ch != 'q')
 {
 	putchar(ch);
 }
-{
+}
 putchar('\n');
 
 return (0);
