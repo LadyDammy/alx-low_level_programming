@@ -1,24 +1,23 @@
-#include  <stdio.h>
+#include <stdio.h>
 /**
- * main - prints numbers from 0-9 separated by commas and space
+ * main - print numbers 0-9 separated by commans and spaces between them
  *
- * Description: using the main function
- * this program "prints numbers from 0-9
+ * Description: usind the main function
+ * this program prints "0-9 with spaces and commas between them
  * Return: 0
  */
 int main(void)
-{	
-int c;	
+{
+int c;
 for (c = 48; c <= 57; c++)
 {
-
 	putchar(c);
-        if (c != 57)
+if (c != 57)
 {
 	putchar(',');
-	
+
 	putchar(' ');
-}	
+}
 }
 putchar('\n');
 return (0);
