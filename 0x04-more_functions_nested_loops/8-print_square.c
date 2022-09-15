@@ -19,7 +19,9 @@ if (size > 0)
 	putchar('#');
 }
 	putchar('#');
+
 	putchar('\n');
+}
 }
 else
 {
