@@ -23,7 +23,7 @@ else if ((num % 3) == 0)
 }
 else if ((num % 5) == 0)
 {
-	if (num != 100)
+if (num != 100)
 {
 	printf("Buzz ");
 }
