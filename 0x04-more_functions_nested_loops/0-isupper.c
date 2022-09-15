@@ -4,7 +4,7 @@
  * @c: is the int that will be used for the argument of the function
  * Return: 0
  */
-int  _isupper(int c);
+int  _isupper(int c)
 {
 if (c >= 'A' && C <= 'Z')
 {	
