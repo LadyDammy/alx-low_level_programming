@@ -23,7 +23,7 @@ for (inc2 = 0; inc2 < inc1; inc2++)
 {
 	putchar('#');
 }
-if (incl == size)
+if (inc2 == size)
 {
 	continue;
 }
