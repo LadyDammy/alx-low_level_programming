@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - programs that prints either number
- *or fizz or buzz or fizbuss
+ *main - program  that prints either number
+ *or Fizz or Buzz or fizzBuzz
+ *
  *
  *Return: returns 0
  */
