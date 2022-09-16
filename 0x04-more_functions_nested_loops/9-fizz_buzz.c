@@ -9,34 +9,33 @@
 
 int main(void)
 {
-	int num = 1;
-while (num++ < 100)
+	int n;
+
+for (n = 1; n <= 100; n++)
 {
-if ((num % 3 == 0) && (num % 5 == 0))
+if ((num % 3) == 0 && (num % 5) == 0)
 {
-	printf("FizzBuzz ");
+	printf("FizzBuzz");
 }
 else if ((num % 3) == 0)
 {
-	printf("Fizz ");
+	printf("Fizz");
 }
 else if ((num % 5) == 0)
 {
-if (num != 100)
-{
-	printf("Buzz ");
-}
-else
-{
 	printf("Buzz");
 }
-}
 else
 {
-	printf("%d ", num);
+	printf("%d", n);
+}
+if (n == 100)
+{
+	continue;
+}
+	printf(" ")
 }
 }
-	printf("\n");
-
+	printf("\n");		
 	return (0);
 }
