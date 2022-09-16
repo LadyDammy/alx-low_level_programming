@@ -26,7 +26,7 @@ for (inc = 3; inc < number / 2; inc += 2)
 		number /= inc;
 }
 }
-printf("%1d\n" , number);
+printf("%1ld\n" , number);
 
 return (0);
 }
