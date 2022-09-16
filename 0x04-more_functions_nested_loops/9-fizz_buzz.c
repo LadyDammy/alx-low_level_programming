@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	int n;
+	int num;
 
-for (n = 1; n <= 100; n++)
+for (num = 1; num <= 100; num++)
 {
-if ((num % 3) == 0 && (num % 5) == 0)
+if ((num % 3 == 0) && (num % 5 == 0))
 {
 	printf("FizzBuzz");
 }
@@ -29,13 +29,14 @@ else
 {
 	printf("%d", n);
 }
-if (n == 100)
+if (num == 100)
 {
 	continue;
 }
-	printf(" ")
+	printf(" ");
 }
 }
 	printf("\n");		
 	return (0);
+}	
 }
