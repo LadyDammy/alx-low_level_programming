@@ -4,7 +4,6 @@
  *main - program  that prints either number
  *or Fizz or Buzz or fizzBuzz
  *
- *
  *Return: returns 0
  */
 
