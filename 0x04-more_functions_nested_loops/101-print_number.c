@@ -1,10 +1,9 @@
-#include <stdio.h>
+
 #include "main.h"
 
 /**
  * print_number - Prints a number
- * @n: The number to print
- *
+ * @n: The number to prin
  * Return: void
  */
 
@@ -21,5 +20,5 @@ if (num > 9)
 {
 	print_number(num / 10);
 }
-putchar(num % 10 + '0');
+putchar(num % 10 + '0')
 }
