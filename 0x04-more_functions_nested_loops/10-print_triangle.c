@@ -30,6 +30,5 @@ if (inc2 == size)
 	putchar('\n');
 }
 }
+putchar('\n');
 }
-	putchar('\n');
-	}
