@@ -19,7 +19,6 @@ int index = 0, dest_len = 0;
 	{
 		dest[dest_len++] = src[index];
 	}
-
-	return(dest);
-}
+	}
+	return (dest);
 }
