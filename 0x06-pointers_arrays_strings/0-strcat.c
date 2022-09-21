@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -11,12 +10,13 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *dest = s1;
-	char *src = s2;
-	char *ptr;
+int index = 0, dest_len = 0;
 
-	ptr = _strcat(s1, s2);
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index]; index++)
+		dest[deest_len++] = src[index];
 
-return (*ptr);
+	return(dest);
 }
 

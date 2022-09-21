@@ -4,6 +4,7 @@
 /**
  * void prototypes()
  * int prototypes()
+ * char prototypes()
  */
 
 char *_strcat(char *dest, char *src);
