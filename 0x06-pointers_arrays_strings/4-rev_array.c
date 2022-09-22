@@ -4,21 +4,24 @@
  * reverse_array - reversing an array
  * @a: name of array
  * @n: an element of array
+ * Return: nothing
  */
 
 void reverse_array(int *a, int n)
 {
-	int *p, i, tmp, s;
+	int i, first, last, keep, counts;
 	
-	p = a;
+	counts = n / 2;
+	first = 0;
+	last = n - 1;
 	
-for (i = 0; i < n; i++)
-	p++;
-{	for (s = 0; s < n / 2; s++);
+for (i = 0; i < counts; i++)
+{	
+	keep = a[first];
+	a[first] = a[last];
+	a[last] = keep;
+	first++;
+	last--;
 	
-	tmp = a[s];
-	a[s] = *p;
-	*p = tmp;
-	p--;
 }
 }
