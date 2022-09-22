@@ -16,7 +16,7 @@ int _strcmp(char *s1, char *s2)
 
 			break;
 				
-		count = *(s1 + coun2) - *(s2 + count2);
+		count = *(s1 + count2) - *(s2 + count2);
 		count2++;
 	}
 
