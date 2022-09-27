@@ -3,7 +3,7 @@
 /**
  * _strchr - locates a character in a string
  * @s: string to check
- * @c: character to locate
+ * @c: character to check for
  *
  * Return: pointer to locate in s with c or null
  */
@@ -11,12 +11,12 @@ char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; *(s + 1); i++)
+	for (i = 0; *(s + i); i++)
 	{
-		if (*(s + 1) == c)
-			return (s + 1);
+		if (*(s + i) == c)
+			return (s + i);
 	}
-	if (*(s + 1) == c)
-		return (s + 1);
+	if (*(s + i) == c)
+		return (s + i);
 	return (0);
 }
