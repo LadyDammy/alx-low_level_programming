@@ -4,7 +4,7 @@
 /**
  * main - program that prints result of multiplication, followed by a new line
  * @argc: argument that contains argument input
- * argv: argument that store the strings in an array of char * (strings)
+ * @argv: argument that store the strings in an array of char * (strings)
  * Return: 0
  */
 int main(int argc, char *argv[])
