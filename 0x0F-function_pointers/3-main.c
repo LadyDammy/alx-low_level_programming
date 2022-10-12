@@ -9,9 +9,9 @@
  *
  * Return: always 0
  */
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
-	int a, b, c;
+	int a,  b,  c;
 	int (*f)(int, int);
 
 	if (argc != 4)
