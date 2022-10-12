@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int a,  b,  c;
+	int a, b, c;
 	int (*f)(int, int);
 
 	if (argc != 4)
@@ -31,3 +31,5 @@ int main(int argc, char *argv[])
 	printf("%d\n", c);
 	return (0);
 }
+
+
