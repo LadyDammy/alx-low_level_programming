@@ -12,22 +12,30 @@
 int main(int argc, char *argv[])
 {
 	int a, b, c;
-	int (*f)(int, int);
+	char o;
+	int (*func)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
-	f = get_op_func(argv[2]);
-	if (f == NULL)
+	func = get_op_func(argv[2]);
+	if (!func)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	c = f(a, b);
+	o = *argv[2];
+
+	if ((o == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	c = func(a, b);
 	printf("%d\n", c);
 	return (0);
 }
