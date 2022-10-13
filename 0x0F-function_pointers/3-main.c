@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	if ((o == '/' || o == '%') && b == 0)
 	{
 		printf("Error\n");
-		exit(100);
+	}	exit(100);
 	c = func(a, b);
 	printf("%d\n", c);
 	return (0);
