@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * check_valid_string - checks if a string has only 0's and 1's
  * @b: string to be checked
