@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 	close_dest = close(dest);
 	check_IO_stat(close_dest, dest, NULL, 'C');
 	return (0);
-}	
+}
 /**
  * check_IO_stat - checks if a file can be opened or closed
  * @stat: file descriptor of the file to be opened
@@ -69,4 +69,4 @@ void check_IO_stat(int stat, int fd, char *filename, char mode)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 		exit(99);
 	}
-}	
+}
